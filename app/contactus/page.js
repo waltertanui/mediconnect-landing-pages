@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { useState } from 'react';
 import { db } from '../../firebase'; // Import the db from firebase.js
 import { collection, addDoc } from "firebase/firestore";
