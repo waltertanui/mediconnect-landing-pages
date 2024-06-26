@@ -7,6 +7,7 @@ import Image from 'next/image'; // Import Image from next/image
 import med4Image from '../public/med4.jpg';
 import med2Image from '../public/med2.jpg';
 import med3Image from '../public/med3.jpg';
+import hero1 from '../public/hero1.jpg';
 import logo from '../public/logo.jpeg'
 import profile1 from '../public/profile1.jpg'
 import profile2 from '../public/profile2.jpg'
@@ -41,7 +42,7 @@ function Page() {
         {/* Introduction image */}
         <div className="relative">
           <div className="flex justify-center mb-12">
-            <Image src={med4Image} alt="Secure Medical Data Storage" className="rounded-lg" style={{ width: '100%', height: 'auto', filter: 'blur(2px)' }} />
+            <Image src={hero1} alt="Secure Medical Data Storage" className="rounded-lg" style={{ width: '100%', height: 'auto', filter: 'blur(2px)' }} />
           </div>
           <div className="absolute inset-0 flex items-center justify-center">
             <h2 className="text-black text-2xl sm:text-3xl font-bold text-center px-4">
